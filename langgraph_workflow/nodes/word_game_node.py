@@ -22,7 +22,6 @@ class WordGameModel(BaseModel):
     status: str = Field(description="Game status, either 'inprogress' or 'done'")
 
 # Game word list
-word_game_list = ["apple", "chair", "elephant", "guitar", "rocket", "pencil", "pizza", "tiger"]
 
 # Create parser and prompt
 parser = PydanticOutputParser(pydantic_object=WordGameModel)
@@ -39,7 +38,19 @@ chain = word_game_prompt.partial(
 async def word_game_node(state: WorkflowState) -> WorkflowState:
     try:
         logger.info("################### NODE: word_game_node ###################")
-
+        """
+        # TODO: 
+        
+        - Make a LLM call with the word_game_prompt and NumberGameModel (or format_instructions)
+        - Get the response from the LLM -> assign it to llm_response
+        - Validate the LLM response structure  (if it's not a dict, convert it into dict)
+        - Log the LLM response
+        - Add the response to the state and return it
+        
+        Note: 
+        - Use only LangChain library to make the LLM call
+        - Accordingly you can modify 'word_game_prompt' however you want (if you want)
+        """
         user_input = state.get("user_input", "")
         chat_history = state.get("chat_history", [])
 

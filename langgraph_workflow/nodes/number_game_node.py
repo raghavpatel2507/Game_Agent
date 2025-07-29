@@ -35,7 +35,19 @@ async def number_game_node(state: WorkflowState):
     """Number Game Node for guessing the number"""
     try:
         logger.info("\n################### NODE: number_game_node ###################")
-
+        """
+        # TODO: 
+        
+        - Make a LLM call with the number_game_prompt and NumberGameModel (or format_instructions)
+        - Get the response from the LLM -> assign it to llm_response
+        - Validate the LLM response structure  (if it's not a dict, convert it into dict)
+        - Log the LLM response
+        - Add the response to the state and return it
+        
+        Note: 
+        - You can either use LangChain or OpenAI API to make the LLM call
+        - Accordingly you can modify 'number_game_prompt' however you want (if you want)
+        """
         # Extract data from state
         user_input = state.get("user_input", "")
         chat_history = state.get("chat_history", [])
