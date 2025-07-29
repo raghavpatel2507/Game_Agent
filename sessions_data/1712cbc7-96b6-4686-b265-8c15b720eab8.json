@@ -1,0 +1,11 @@
+{
+    "session_id": "1712cbc7-96b6-4686-b265-8c15b720eab8",
+    "current_game_type": "number_game",
+    "game_status": "inprogress",
+    "word_game_cnt": 0,
+    "number_game_cnt": 0,
+    "word_game": {},
+    "number_game": {
+        "game0": []
+    }
+}

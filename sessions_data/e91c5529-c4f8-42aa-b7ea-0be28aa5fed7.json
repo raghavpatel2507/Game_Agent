@@ -1,0 +1,31 @@
+{
+    "session_id": "e91c5529-c4f8-42aa-b7ea-0be28aa5fed7",
+    "current_game_type": "word_game",
+    "game_status": "inprogress",
+    "word_game_cnt": 0,
+    "number_game_cnt": 0,
+    "word_game": {
+        "game0": [
+            {
+                "user": "word_game",
+                "ai": "Welcome to the word guessing game! I have a list of words: apple, chair, elephant, guitar, rocket, pencil, pizza, tiger. Pick one word from this list and I'll try to guess it with yes/no questions. Are you ready?"
+            },
+            {
+                "ai": "Welcome to the word guessing game! I have a list of words: apple, chair, elephant, guitar, rocket, pencil, pizza, tiger. Pick one word from this list and I'll try to guess it with yes/no questions. Are you ready?",
+                "user": ""
+            }
+        ]
+    },
+    "number_game": {
+        "game0": [
+            {
+                "user": "number_game",
+                "ai": "I'm ready to start the number guessing game! Think of a number between 1 and 50, and I'll try to guess it. Is your number higher than 25?"
+            },
+            {
+                "ai": "I'm ready to start the number guessing game! Think of a number between 1 and 50, and I'll try to guess it. Is your number higher than 25?",
+                "user": ""
+            }
+        ]
+    }
+}

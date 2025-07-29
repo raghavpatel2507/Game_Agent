@@ -1,0 +1,24 @@
+{
+    "session_id": "4e60c41b-44ae-472d-9d12-95b8775682f1",
+    "current_game_type": "number_game",
+    "game_status": "inprogress",
+    "word_game_cnt": 0,
+    "number_game_cnt": 0,
+    "word_game": {},
+    "number_game": {
+        "game0": [
+            {
+                "user": "number_game",
+                "ai": "I'm ready to start the number guessing game! Think of a number between 1 and 50, and I'll try to guess it. Is your number higher than 25?"
+            },
+            {
+                "ai": "I'm ready to start the number guessing game! Think of a number between 1 and 50, and I'll try to guess it. Is your number higher than 25?",
+                "user": "no"
+            },
+            {
+                "ai": "I'm ready to start the number guessing game! Think of a number between 1 and 50, and I'll try to guess it. Is your number higher than 25?",
+                "user": ""
+            }
+        ]
+    }
+}

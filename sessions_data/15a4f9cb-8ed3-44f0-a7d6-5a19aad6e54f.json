@@ -1,0 +1,171 @@
+{
+    "session_id": "15a4f9cb-8ed3-44f0-a7d6-5a19aad6e54f",
+    "current_game_type": "word_game",
+    "game_status": "",
+    "word_game_cnt": 2,
+    "number_game_cnt": 2,
+    "word_game": {
+        "game0": [
+            {
+                "user": "word_game",
+                "ai": "Let's play a word guessing game! Think of a word from this list: apple, chair, elephant, guitar, rocket, pencil, pizza, tiger. I'll ask you some yes/no/maybe questions to try to figure out what the word is. Here's my first question: Is the object you're thinking of something that you can hold in your hand?"
+            },
+            {
+                "ai": "Let's play a word guessing game! Think of a word from this list: apple, chair, elephant, guitar, rocket, pencil, pizza, tiger. I'll ask you some yes/no/maybe questions to try to figure out what the word is. Here's my first question: Is the object you're thinking of something that you can hold in your hand?",
+                "user": "yes"
+            },
+            {
+                "ai": "That helps to narrow it down! Is the object you're thinking of man-made?",
+                "user": "yes"
+            },
+            {
+                "ai": "Now I'm getting closer! Is the object you're thinking of used for a specific purpose or function?",
+                "user": "yes"
+            },
+            {
+                "ai": "Excellent! With that in mind, is the object you're thinking of something that can be used for a creative or artistic purpose?",
+                "user": "no"
+            },
+            {
+                "ai": "That helps to rule out some possibilities. Next question: Is the object you're thinking of something that can be found in an office or school setting?",
+                "user": "yes"
+            },
+            {
+                "ai": "That's a good clue! Next question: Is the object you're thinking of small enough to fit in a pocket or purse?",
+                "user": "no"
+            },
+            {
+                "ai": "That helps to narrow it down! Based on your answers, I'm going to take a guess that the object you're thinking of is a pencil. Is that correct?",
+                "user": "no"
+            },
+            {
+                "ai": "I was close, but not quite there! Thanks for letting me know. I'll keep trying. Based on your answers, my next question is: Is the object you're thinking of something that can be used for writing or drawing?",
+                "user": "no"
+            },
+            {
+                "ai": "That helps to rule out some possibilities. Next question: Is the object you're thinking of something that serves a functional purpose, like a piece of furniture?",
+                "user": "word_game"
+            },
+            {
+                "ai": "That's a good clue! Based on your answers, I'm going to take a guess that the object you're thinking of is a chair. Is that correct?",
+                "user": "yes"
+            }
+        ],
+        "game1": [
+            {
+                "user": "word_game",
+                "ai": "Think of a word from this list: apple, chair, elephant, guitar, rocket, pencil, pizza, tiger. I'll try to guess it by asking yes/no/maybe questions!"
+            },
+            {
+                "ai": "Think of a word from this list: apple, chair, elephant, guitar, rocket, pencil, pizza, tiger. I'll try to guess it by asking yes/no/maybe questions!",
+                "user": "yes"
+            },
+            {
+                "ai": "Let's start! Is the word you're thinking of something that can be held in your hand?",
+                "user": "no"
+            },
+            {
+                "ai": "Is the word you're thinking of something that is living or was once living?",
+                "user": "no"
+            },
+            {
+                "ai": "Is the word you're thinking of man-made?",
+                "user": "no"
+            },
+            {
+                "ai": "Is the word you're thinking of something that serves a functional purpose?",
+                "user": "no"
+            },
+            {
+                "ai": "Hmm, interesting! Is the word you're thinking of related to food in any way?",
+                "user": "no"
+            },
+            {
+                "ai": "Is the word you're thinking of something that can be seen in the sky or in outer space?",
+                "user": "no"
+            },
+            {
+                "ai": "Is the word you're thinking of something that can be found in nature, like a rock or a mountain?",
+                "user": "yes"
+            },
+            {
+                "ai": "Since you said it can be found in nature, I'm going to take a guess that the word you're thinking of is an elephant. Is that correct?",
+                "user": "yes"
+            }
+        ]
+    },
+    "number_game": {
+        "game0": [
+            {
+                "user": "number_game",
+                "ai": "Think of a number between 1 and 50. I'll try to guess it. Is it greater than 25?"
+            },
+            {
+                "ai": "Think of a number between 1 and 50. I'll try to guess it. Is it greater than 25?",
+                "user": "number_game"
+            },
+            {
+                "ai": "You didn't respond. Let's start again. Is it less than 37?",
+                "user": "number_game"
+            },
+            {
+                "ai": "Is it greater than 37?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is it less than 43?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is it less than 41?",
+                "user": "no"
+            },
+            {
+                "ai": "Is it equal to 41?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is it 42?",
+                "user": "yes"
+            }
+        ],
+        "game1": [
+            {
+                "user": "number_game",
+                "ai": "Think of a number between 1 and 50. I'll try to guess it! Is it greater than 25?"
+            },
+            {
+                "ai": "Think of a number between 1 and 50. I'll try to guess it! Is it greater than 25?",
+                "user": "number_game"
+            },
+            {
+                "ai": "You've thought of a number between 1 and 50. Is it greater than 37?",
+                "user": "no"
+            },
+            {
+                "ai": "Is it between 25 and 37?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is it greater than 31?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is it greater than 32?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is it greater than 33?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is it greater than 34?",
+                "user": "no"
+            },
+            {
+                "ai": "Is it 35?",
+                "user": "yes"
+            }
+        ]
+    }
+}

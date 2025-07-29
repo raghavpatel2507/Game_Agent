@@ -1,0 +1,51 @@
+{
+    "session_id": "6f7d2a46-875f-4511-bf9a-99e4afe85231",
+    "current_game_type": "word_game",
+    "game_status": "inprogress",
+    "word_game_cnt": 0,
+    "number_game_cnt": 1,
+    "word_game": {
+        "game0": [
+            {
+                "user": "word_game",
+                "ai": "Welcome to the word guessing game! I have a list of words: apple, chair, elephant, guitar, rocket, pencil, pizza, tiger. Pick one word from this list and I'll try to guess it with yes/no questions. Are you ready?"
+            },
+            {
+                "ai": "Welcome to the word guessing game! I have a list of words: apple, chair, elephant, guitar, rocket, pencil, pizza, tiger. Pick one word from this list and I'll try to guess it with yes/no questions. Are you ready?",
+                "user": "yes"
+            },
+            {
+                "ai": "Welcome to the word guessing game! I have a list of words: apple, chair, elephant, guitar, rocket, pencil, pizza, tiger. Pick one word from this list and I'll try to guess it with yes/no questions. Are you ready?",
+                "user": ""
+            }
+        ]
+    },
+    "number_game": {
+        "game0": [
+            {
+                "user": "number_game",
+                "ai": "Think of a number between 1 and 50. I'll try to guess it!"
+            },
+            {
+                "ai": "Think of a number between 1 and 50. I'll try to guess it!",
+                "user": "yes"
+            },
+            {
+                "ai": "Is your number greater than 25?",
+                "user": "no"
+            },
+            {
+                "ai": "Is your number less than 12?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is your number between 10 and 12?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is it 11?",
+                "user": "yes"
+            }
+        ]
+    }
+}

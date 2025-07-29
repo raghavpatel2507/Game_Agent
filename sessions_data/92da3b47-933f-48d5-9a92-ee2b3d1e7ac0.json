@@ -1,0 +1,43 @@
+{
+    "session_id": "92da3b47-933f-48d5-9a92-ee2b3d1e7ac0",
+    "current_game_type": "word_game",
+    "game_status": "inprogress",
+    "word_game_cnt": 0,
+    "number_game_cnt": 0,
+    "word_game": {
+        "game0": [
+            {
+                "user": "word_game",
+                "ai": "Think of a word from a secret list, and I'll try to guess it by asking yes or no questions. Let's start! Is the thing you're thinking of something that can be held in your hand?"
+            },
+            {
+                "ai": "Think of a word from a secret list, and I'll try to guess it by asking yes or no questions. Let's start! Is the thing you're thinking of something that can be held in your hand?",
+                "user": ""
+            }
+        ]
+    },
+    "number_game": {
+        "game0": [
+            {
+                "user": "number_game",
+                "ai": "Think of a number between 1 and 50. I'll try to guess it. Is it greater than 25?"
+            },
+            {
+                "ai": "Think of a number between 1 and 50. I'll try to guess it. Is it greater than 25?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is it greater than 37?",
+                "user": "no"
+            },
+            {
+                "ai": "Is it between 25 and 37?",
+                "user": "yes"
+            },
+            {
+                "ai": "Is it between 30 and 36?",
+                "user": ""
+            }
+        ]
+    }
+}

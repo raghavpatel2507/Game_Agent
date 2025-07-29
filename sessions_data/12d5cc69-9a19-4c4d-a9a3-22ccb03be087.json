@@ -1,0 +1,24 @@
+{
+    "session_id": "12d5cc69-9a19-4c4d-a9a3-22ccb03be087",
+    "current_game_type": "word_game",
+    "game_status": "inprogress",
+    "word_game_cnt": 0,
+    "number_game_cnt": 0,
+    "word_game": {
+        "game0": [
+            {
+                "user": "word_game",
+                "ai": "Think of a word from a secret list, and I'll try to guess it! Let's start. Is the thing you're thinking of something that can be held in your hand?"
+            },
+            {
+                "ai": "Think of a word from a secret list, and I'll try to guess it! Let's start. Is the thing you're thinking of something that can be held in your hand?",
+                "user": "no"
+            },
+            {
+                "ai": "That helps narrow it down. Is the thing you're thinking of something that can be found indoors?",
+                "user": ""
+            }
+        ]
+    },
+    "number_game": {}
+}
